@@ -14,7 +14,7 @@ class _Splash_viewState extends State<Splash_view> {
   @override
   void initState() {
     super.initState();
-    Future.delayed(const Duration(seconds: 20), () {
+    Future.delayed(const Duration(seconds: 5), () {
       Navigator.pushNamed(context, HomePage.Id_home);
     });
   }
@@ -24,11 +24,7 @@ class _Splash_viewState extends State<Splash_view> {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        child: Image.asset(
-          'asset/6.jpg',
-          height: double.infinity,
-          width: double.infinity,
-        ),
+        child: Image.asset('asset/6.jpg', fit: BoxFit.fill),
       ),
     );
   }
