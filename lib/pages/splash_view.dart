@@ -15,7 +15,7 @@ class _Splash_viewState extends State<Splash_view> {
   void initState() {
     super.initState();
     Future.delayed(const Duration(seconds: 5), () {
-      Navigator.pushNamed(context, HomePage.Id_home);
+      Navigator.of(context).pushReplacementNamed(HomePage.Id_home); // to remove spalsh veiw from back ground
     });
   }
 
