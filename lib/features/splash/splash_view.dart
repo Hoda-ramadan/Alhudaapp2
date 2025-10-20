@@ -1,4 +1,4 @@
-import 'package:alhuda/pages/home_page.dart';
+import 'package:alhuda/features/home/views/home_page.dart';
 import 'package:flutter/material.dart';
 
 class Splash_view extends StatefulWidget {

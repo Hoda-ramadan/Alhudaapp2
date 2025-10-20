@@ -1,5 +1,6 @@
-import 'package:alhuda/pages/home_page.dart';
-import 'package:alhuda/pages/splash_view.dart';
+import 'package:alhuda/features/home/views/home_page.dart';
+import 'package:alhuda/features/quran%20Feature/quran_home_page.dart';
+import 'package:alhuda/features/splash/splash_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,6 +17,7 @@ class Alhuda extends StatelessWidget {
       routes: {
         HomePage.Id_home: (context) => HomePage(),
         Splash_view.id_Splash: (context) => Splash_view(),
+        QuranHomePage.Id_quran: (context) => QuranHomePage(),
       },
       home: Splash_view(),
     );
