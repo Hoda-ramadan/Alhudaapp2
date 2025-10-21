@@ -1,4 +1,10 @@
+<<<<<<< HEAD
  import 'package:flutter/material.dart';
+=======
+import 'dart:developer';
+
+import 'package:flutter/material.dart';
+>>>>>>> e59d28a3fe86b14a78737f0fccf056b0d5dde983
 
 class QuranItem extends StatelessWidget {
   const QuranItem({super.key});

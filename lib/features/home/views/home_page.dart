@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  
+=======
+import 'package:alhuda/features/home/widgets/custom_featured_icons.dart';
+>>>>>>> e59d28a3fe86b14a78737f0fccf056b0d5dde983
 import 'package:alhuda/features/home/widgets/custom_text.dart';
 import 'package:alhuda/features/home/widgets/home_veiw_featurs.dart';
 import 'package:alhuda/features/home/widgets/home_veiw_first_part.dart';

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
  
+=======
+import 'package:alhuda/features/quran%20Feature/widgets/quran_item.dart';
+>>>>>>> e59d28a3fe86b14a78737f0fccf056b0d5dde983
 import 'package:alhuda/features/quran%20Feature/widgets/quran_item_list_veiw.dart';
 import 'package:flutter/material.dart';
 

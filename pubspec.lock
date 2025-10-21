@@ -49,6 +49,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.8"
+<<<<<<< HEAD
   dio:
     dependency: "direct main"
     description:
@@ -65,6 +66,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+=======
+>>>>>>> e59d28a3fe86b14a78737f0fccf056b0d5dde983
   fake_async:
     dependency: transitive
     description:
@@ -91,6 +94,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   http_parser:
     dependency: transitive
     description:
@@ -99,6 +103,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.1.2"
+=======
+>>>>>>> e59d28a3fe86b14a78737f0fccf056b0d5dde983
   leak_tracker:
     dependency: transitive
     description:
@@ -155,6 +161,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.16.0"
+<<<<<<< HEAD
   mime:
     dependency: transitive
     description:
@@ -163,6 +170,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+=======
+>>>>>>> e59d28a3fe86b14a78737f0fccf056b0d5dde983
   path:
     dependency: transitive
     description:
@@ -224,6 +233,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.6"
+<<<<<<< HEAD
   typed_data:
     dependency: transitive
     description:
@@ -232,6 +242,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.0"
+=======
+>>>>>>> e59d28a3fe86b14a78737f0fccf056b0d5dde983
   vector_math:
     dependency: transitive
     description:
@@ -248,6 +260,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "15.0.2"
+<<<<<<< HEAD
   web:
     dependency: transitive
     description:
@@ -256,6 +269,8 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+=======
+>>>>>>> e59d28a3fe86b14a78737f0fccf056b0d5dde983
 sdks:
   dart: ">=3.9.2 <4.0.0"
   flutter: ">=3.18.0-18.0.pre.54"
