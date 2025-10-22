@@ -1,5 +1,5 @@
 import 'package:alhuda/features/home/widgets/custom_featured_icons.dart';
-import 'package:alhuda/features/quran%20Feature/quran_home_page.dart';
+import 'package:alhuda/features/quran%20Feature/views/quran_home_page.dart';
 import 'package:flutter/material.dart';
 
 class HomeVeiwFeaturs extends StatelessWidget {
