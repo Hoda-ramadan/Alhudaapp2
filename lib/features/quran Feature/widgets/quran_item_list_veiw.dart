@@ -10,7 +10,7 @@ class QuranItemListVeiw extends StatelessWidget {
       itemCount: 30,
       scrollDirection: Axis.vertical,
       itemBuilder: (context, index) {
-        return QuranItem();
+        // QuranItem();
       },
     );
   }

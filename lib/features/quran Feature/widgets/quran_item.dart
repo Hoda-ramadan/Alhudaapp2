@@ -1,8 +1,9 @@
+import 'package:alhuda/features/quran%20Feature/data/model/quran_model/surah.dart';
 import 'package:flutter/material.dart';
 
 class QuranItem extends StatelessWidget {
-  const QuranItem({super.key});
-
+  const QuranItem({super.key, required this.surah});
+  final Surah surah;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -20,12 +21,12 @@ class QuranItem extends StatelessWidget {
               Row(
                 children: [
                   Text(
-                    '1',
+                    surah.number.toString(),
                     style: TextStyle(color: Color(0xffAC9650), fontSize: 22),
                   ),
                   SizedBox(width: 15),
                   Text(
-                    'Al-Fatiha',
+                    surah.name.toString(),
                     style: TextStyle(color: Color(0xffAC9650), fontSize: 22),
                   ),
                 ],

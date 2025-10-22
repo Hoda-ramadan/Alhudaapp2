@@ -2,6 +2,7 @@ import 'package:alhuda/features/quran%20Feature/data/logic/Quran_Service.dart';
 import 'package:alhuda/features/quran%20Feature/data/logic/quranCubit/quran_Cubit.dart';
 import 'package:alhuda/features/quran%20Feature/widgets/quran_item.dart';
 import 'package:alhuda/features/quran%20Feature/widgets/quran_item_list_veiw.dart';
+import 'package:alhuda/features/quran%20Feature/widgets/quran_list_bloc_builder.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -27,7 +28,7 @@ class QuranHomePage extends StatelessWidget {
           ),
         ),
       
-        body: QuranItemListVeiw(),
+        body:  QuranListBlocBuilder(),
       ),
     );
   }

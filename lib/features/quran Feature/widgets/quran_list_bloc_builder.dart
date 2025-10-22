@@ -13,15 +13,21 @@ class QuranListBlocBuilder extends StatelessWidget {
       builder: (BuildContext context, state) {
         if (state is QuranLodingState) {
           return Center(child: CircularProgressIndicator());
+        } else if (state is QuranSucssesState) {
+          final surah = state.quran.data!.surahs;
+          return ListView.builder(
+            itemCount: surah!.length,
+            scrollDirection: Axis.vertical,
+            itemBuilder: (context, index) {
+              return QuranItem(surah: surah[index]);
+            },
+          );
+        } else if (state is QuranFailState) {
+          return Center(child: Text(state.errorMessage));
+        } else {
+          return Center(child: Text('The Qurant is Loading'));
         }
       },
-      child: ListView.builder(
-        itemCount: 30,
-        scrollDirection: Axis.vertical,
-        itemBuilder: (context, index) {
-          return QuranItem();
-        },
-      ),
     );
   }
 }
