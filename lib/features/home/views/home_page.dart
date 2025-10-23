@@ -1,4 +1,5 @@
 import 'package:alhuda/features/home/widgets/custom_featured_icons.dart';
+
 import 'package:alhuda/features/home/widgets/custom_text.dart';
 import 'package:alhuda/features/home/widgets/home_veiw_featurs.dart';
 import 'package:alhuda/features/home/widgets/home_veiw_first_part.dart';

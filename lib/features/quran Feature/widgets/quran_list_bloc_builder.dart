@@ -1,5 +1,8 @@
 import 'package:alhuda/features/quran%20Feature/data/logic/quranCubit/quran_Cubit.dart';
 import 'package:alhuda/features/quran%20Feature/data/logic/quranCubit/quran_cubit_states.dart';
+
+import 'package:alhuda/features/quran%20Feature/data/model/quran_model/ayah.dart';
+
 import 'package:alhuda/features/quran%20Feature/widgets/quran_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
