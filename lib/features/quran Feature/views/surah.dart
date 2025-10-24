@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:alhuda/features/quran%20Feature/data/model/quran_model/surah.dart';
-import 'package:alhuda/features/quran%20Feature/widgets/surah_view.dart';
+import 'package:alhuda/features/quran%20Feature/widgets/aya_custom_contianer.dart';
 import 'package:flutter/material.dart';
 
 class Surah_view extends StatelessWidget {
@@ -21,7 +21,7 @@ class Surah_view extends StatelessWidget {
         itemCount: surah.ayahs!.length,
         itemBuilder: (BuildContext context, int index) {
           final ayah = surah.ayahs![index];
-          return SurahView(ayah: ayah);
+          return AyaCustomContianer(ayah: ayah);
         },
       ),
     );
