@@ -10,6 +10,7 @@ class QuranListBlocBuilder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<QuranCubit, QuranStates>(
+     
       builder: (BuildContext context, state) {
         if (state is QuranLodingState) {
           return Center(child: CircularProgressIndicator());

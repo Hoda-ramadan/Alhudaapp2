@@ -1,3 +1,5 @@
+import 'package:alhuda/features/quran%20Feature/data/model/quran_model/surah.dart';
+
 class Ayah {
   int? number;
   String? text;
