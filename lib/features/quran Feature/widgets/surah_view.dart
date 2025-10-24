@@ -1,10 +1,11 @@
 import 'package:alhuda/features/quran%20Feature/data/model/quran_model/ayah.dart';
 import 'package:alhuda/features/quran%20Feature/data/model/quran_model/surah.dart';
+import 'package:alhuda/features/quran%20Feature/widgets/aya_custom_contianer.dart';
 import 'package:flutter/material.dart';
 
 class SurahView extends StatelessWidget {
-  SurahView({super.key, required this.surah});
-  final Surah surah;
+  SurahView({super.key, required this.ayah});
+  final Ayah ayah;
 
   @override
   Widget build(BuildContext context) {
@@ -22,18 +23,13 @@ class SurahView extends StatelessWidget {
                 color: Color(0xffAC9650),
               ),
               child: Text(
-                "${surah.ayahs?[2].number}",
+                "${ayah.numberInSurah}",
 
-                style: TextStyle(fontSize: 25, color: Colors.white),
+                style: TextStyle(fontSize: 18, color: Colors.white),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Text(
-                textAlign: TextAlign.justify,
-                '${surah.ayahs?[1].text}',
-                style: TextStyle(fontSize: 20, color: Color(0xffAC9650)),
-              ),
+            Expanded(
+              child: Center(child: AyaCustomContianer(ayah: ayah)),
             ),
           ],
         ),

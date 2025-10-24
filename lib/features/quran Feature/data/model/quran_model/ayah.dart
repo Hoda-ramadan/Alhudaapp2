@@ -3,6 +3,7 @@ import 'package:alhuda/features/quran%20Feature/data/model/quran_model/surah.dar
 class Ayah {
   final int number;
   final String text;
+  
 
   Ayah({required this.number, required this.text});
 

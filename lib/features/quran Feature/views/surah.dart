@@ -20,8 +20,8 @@ class Surah_view extends StatelessWidget {
       body: ListView.builder(
         itemCount: surah.ayahs!.length,
         itemBuilder: (BuildContext context, int index) {
-          final ayah = surah.ayahs;
-          return SurahView(surah: surah);
+          final ayah = surah.ayahs![index];
+          return SurahView(ayah: ayah);
         },
       ),
     );
