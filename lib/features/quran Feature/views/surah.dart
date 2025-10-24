@@ -1,4 +1,3 @@
-import 'dart:math';
 
 import 'package:alhuda/features/quran%20Feature/data/model/quran_model/surah.dart';
 import 'package:alhuda/features/quran%20Feature/widgets/aya_custom_contianer.dart';
@@ -11,7 +10,9 @@ class Surah_view extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xffFDF9EF),
       appBar: AppBar(
+        backgroundColor: Color(0xffFDF9EF),
         title: Text(
           '${surah.name}',
           style: TextStyle(fontSize: 28, color: Color(0xffAC9650)),
