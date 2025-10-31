@@ -1,4 +1,4 @@
-import 'package:alhuda/features/quran%20Feature/widgets/azan.dart';
+import 'package:alhuda/features/quran%20Feature/widgets/adhan.dart';
 import 'package:flutter/material.dart';
 
 class AzanView extends StatelessWidget {
@@ -7,18 +7,18 @@ class AzanView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Al_Azan"), centerTitle: true),
+      appBar: AppBar(title: Text("Al_Adhan"), centerTitle: true),
       body: Column(
         children: [
-          Azan(),
+          Adhan(),
           SizedBox(height: 20),
-          Azan(),
+          Adhan(),
           SizedBox(height: 20),
-          Azan(),
+          Adhan(),
           SizedBox(height: 20),
-          Azan(),
+          Adhan(),
           SizedBox(height: 20),
-          Azan(),
+          Adhan(),
           SizedBox(height: 20),
         ],
       ),
