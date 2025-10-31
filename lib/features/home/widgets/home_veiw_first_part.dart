@@ -22,7 +22,7 @@ class HomeVeiwFirstPart extends StatelessWidget {
           SizedBox(height: 300),
           Align(
             alignment: AlignmentGeometry.center,
-            child: CustomText(text: '4:20 AM', fontSize: 40),
+            child: CustomText(text: '4:20 AM', fontSize: 20),
           ),
         ],
       ),

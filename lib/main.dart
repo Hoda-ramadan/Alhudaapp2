@@ -1,10 +1,7 @@
 import 'package:alhuda/features/home/views/home_page.dart';
+import 'package:alhuda/features/quran%20Feature/views/azan_view.dart';
 
 import 'package:alhuda/features/quran%20Feature/views/quran_home_page.dart';
-
-import 'package:alhuda/features/quran%20Feature/data/model/quran_model/surah.dart';
-import 'package:alhuda/features/quran%20Feature/views/quran_home_page.dart';
-import 'package:alhuda/features/quran%20Feature/views/surah.dart';
 
 import 'package:alhuda/features/splash/splash_view.dart';
 import 'package:flutter/material.dart';
@@ -24,6 +21,7 @@ class Alhuda extends StatelessWidget {
         HomePage.Id_home: (context) => HomePage(),
         Splash_view.id_Splash: (context) => Splash_view(),
         QuranHomePage.Id_quran: (context) => QuranHomePage(),
+        AzanView.id: (context) => AzanView(),
       },
       home: Splash_view(),
     );
