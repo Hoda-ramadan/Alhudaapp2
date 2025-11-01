@@ -1,4 +1,4 @@
-class PrayerTimesModel {
+class AdhanModel {
   final String fajr;
   final String sunrise;
   final String dhuhr;
@@ -8,7 +8,7 @@ class PrayerTimesModel {
   final String date;
   final String day;
 
-  PrayerTimesModel({
+  AdhanModel({
     required this.fajr,
     required this.sunrise,
     required this.dhuhr,
@@ -19,10 +19,10 @@ class PrayerTimesModel {
     required this.day,
   });
 
-  factory PrayerTimesModel.fromJson(Map<String, dynamic> json) {
+  factory AdhanModel.fromJson(Map<String, dynamic> json) {
     final timings = json['data']['timings'];
     final hijri = json['data']['date']['hijri'];
-    return PrayerTimesModel(
+    return AdhanModel(
       fajr: timings['Fajr'],
       sunrise: timings['Sunrise'],
       dhuhr: timings['Dhuhr'],
