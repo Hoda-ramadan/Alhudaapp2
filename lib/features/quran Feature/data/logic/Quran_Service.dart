@@ -2,11 +2,10 @@ import 'package:alhuda/features/quran%20Feature/data/model/quran_model/quran_mod
 import 'package:dio/dio.dart';
 
 class QuranService {
-  final Dio dio = Dio();// must intialize Dio
+  final Dio dio = Dio(); // must intialize Dio
 
-
-
-  Future<QuranModel> getQuran() async { // function must be future and it,s return type is quranModel
+  Future<QuranModel> getQuran() async {
+    // function must be future and it,s return type is quranModel
     // make function to get data
     try {
       Response response = await dio.get(

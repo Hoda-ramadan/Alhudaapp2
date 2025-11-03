@@ -6,18 +6,18 @@ class AyaNumberCustomContainer extends StatelessWidget {
   final Ayah ayah;
   @override
   Widget build(BuildContext context) {
-    return  Container(
-              padding: EdgeInsets.all(5),
-              decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                border: Border.all(color: Colors.white),
-                color: Color(0xffAC9650),
-              ),
-              child: Text(
-                "${ayah.numberInSurah}",
+    return Container(
+      padding: EdgeInsets.all(5),
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        border: Border.all(color: Colors.white),
+        color: Color(0xffAC9650),
+      ),
+      child: Text(
+        "${ayah.numberInSurah}",
 
-                style: TextStyle(fontSize: 18, color: Colors.white),
-              ),
-            );
+        style: TextStyle(fontSize: 18, color: Colors.white),
+      ),
+    );
   }
 }

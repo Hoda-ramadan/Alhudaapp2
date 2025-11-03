@@ -1,4 +1,3 @@
-
 import 'package:alhuda/features/quran%20Feature/data/model/quran_model/surah.dart';
 import 'package:alhuda/features/quran%20Feature/widgets/aya_custom_contianer.dart';
 import 'package:flutter/material.dart';

@@ -7,9 +7,9 @@ class QuranIntialState extends QuranStates {}
 class QuranLodingState extends QuranStates {}
 
 class QuranSucssesState extends QuranStates {
-  final  QuranModel quran;
+  final QuranModel quran;
 
-  QuranSucssesState({required this.quran}); 
+  QuranSucssesState({required this.quran});
 }
 
 class QuranFailState extends QuranStates {

@@ -5,12 +5,12 @@ import 'package:alhuda/features/quran%20Feature/widgets/quran_item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-class QuranListBlocBuilder extends StatelessWidget {
-  const QuranListBlocBuilder({super.key});
+class AdhanBlocbuilder extends StatelessWidget {
+  const AdhanBlocbuilder({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return BlocBuilder<QuranCubit, QuranStates>(
+    return BlocBuilder<Cubit, QuranStates>(
       builder: (BuildContext context, state) {
         if (state is QuranLodingState) {
           return Center(child: CircularProgressIndicator());
