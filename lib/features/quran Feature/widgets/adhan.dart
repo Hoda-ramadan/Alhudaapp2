@@ -1,8 +1,10 @@
+ 
+import 'package:alhuda/models/adhan_model/data.dart';
 import 'package:flutter/material.dart';
 
 class Adhan extends StatelessWidget {
-  const Adhan({super.key});
-
+  const Adhan({super.key });
+  
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -12,7 +14,7 @@ class Adhan extends StatelessWidget {
           children: [
             Container(
               height: 50,
-              child: Text("AlFajr", style: TextStyle(fontSize: 40)),
+              child: Text("", style: TextStyle(fontSize: 40)),
             ),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 100),

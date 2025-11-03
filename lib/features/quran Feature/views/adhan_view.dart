@@ -10,7 +10,7 @@ class AzanView extends StatelessWidget {
       appBar: AppBar(title: Text("Al_Adhan"), centerTitle: true),
       body: Column(
         children: [
-          Adhan(),
+          Adhan( ),
           SizedBox(height: 20),
           Adhan(),
           SizedBox(height: 20),
