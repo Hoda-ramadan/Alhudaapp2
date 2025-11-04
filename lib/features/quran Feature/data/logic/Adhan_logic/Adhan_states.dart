@@ -1,4 +1,4 @@
-import 'package:alhuda/models/adhan_model/adhan_model.dart';
+import 'package:alhuda/models/adhan_model/data.dart';
 
 class AdhanStates {}
 
@@ -7,7 +7,7 @@ class AdhanIntialState extends AdhanStates {}
 class AdhanLodingState extends AdhanStates {}
 
 class AdhanSucssesState extends AdhanStates {
-  final AdhanModel adhanModel;
+  final Data2 adhanModel;
 
   AdhanSucssesState({required this.adhanModel});
 }
